@@ -1,6 +1,18 @@
-#prettier-check
+# prettier-check
+
+[![Build Status](https://www.travis-ci.org/neo-fe/prettier-files.svg?branch=master)](https://www.travis-ci.org/neo-fe/prettier-files)
 
 cli for quick checking and formatting prettier 🏃🏼 🏃🏼 🏃🏼
+
+## require
+
+Please install `prettier` >= version 1.15.3
+
+```json
+"peerDependencies": {
+   "prettier": ">=1.15.3"
+},
+```
 
 ## install
 
@@ -95,7 +107,7 @@ npm install husky lint-staged --save --dev
     "prettier-files check",
     "git add"
   ],
-  "**/*.{js,jsx}": "npm run lint-staged:js" // eslint相关逻辑
+  "**/*.{js,jsx}": "npm run lint-staged:js"
   },
   "husky": {
     "hooks": {

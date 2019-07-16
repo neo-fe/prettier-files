@@ -1,4 +1,7 @@
-#prettier-check
+# prettier-check
+
+[![Build Status](https://www.travis-ci.org/neo-fe/prettier-files.svg?branch=master)](https://www.travis-ci.org/neo-fe/prettier-files)
+
 
 一款便于prettier快速检查、格式化的cli工具🏃🏼 🏃🏼 🏃🏼
 
@@ -104,7 +107,7 @@ npm install husky lint-staged --save --dev
     "prettier-files check",
     "git add"
   ],
-  "**/*.{js,jsx}": "npm run lint-staged:js" // eslint相关逻辑
+  "**/*.{js,jsx}": "npm run lint-staged:js"
   },
   "husky": {
     "hooks": {
